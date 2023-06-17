@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { apple, bill, google } from "@/public/assets/";
+import {  bill} from "@/public/assets/";
 import styles,{layout} from "@/styles/style";
 
 const Billing = () => (
