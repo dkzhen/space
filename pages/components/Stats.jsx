@@ -1,8 +1,27 @@
-import { stats } from "@/pages/constants";
-import styles from "@/styles/style";
 
-const Stats = () => (
-  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
+import styles from "@/styles/style";
+import React from 'react'
+
+export default function Stats() {
+  const stats = [
+    {
+      id: "stats-1",
+      title: "User Active",
+      value: "3800+",
+    },
+    {
+      id: "stats-2",
+      title: "Trusted by Company",
+      value: "230+",
+    },
+    {
+      id: "stats-3",
+      title: "Transaction",
+      value: "$230M+",
+    },
+  ];
+  return (
+    <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
     {stats.map((stat) => (
       <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`} >
         <h4 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white">
@@ -14,6 +33,5 @@ const Stats = () => (
       </div>
     ))}
   </section>
-);
-
-export default Stats;
+  )
+}

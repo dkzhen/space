@@ -1,9 +1,10 @@
 import styles from "@/styles/style";
 import {  robot } from "@/public/assets";
-import GetStarted from "./GetStarted";
+import {GetStarted} from "@/pages/components";
 import Image from "next/image";
+import React from 'react'
 
-const Hero = () => {
+export default function Hero() {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -43,7 +44,5 @@ const Hero = () => {
         <GetStarted />
       </div>
     </section>
-  );
-};
-
-export default Hero;
+  )
+}

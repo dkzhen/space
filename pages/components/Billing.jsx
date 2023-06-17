@@ -1,9 +1,11 @@
 import Image from "next/image";
-import {  bill} from "@/public/assets/";
+import { bill} from "@/public/assets/";
 import styles,{layout} from "@/styles/style";
+import React from 'react'
 
-const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+export default function Billing() {
+  return (
+    <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <Image src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
@@ -25,6 +27,6 @@ const Billing = () => (
       </p>
     </div>
   </section>
-);
+  )
+}
 
-export default Billing;

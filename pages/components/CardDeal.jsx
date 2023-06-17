@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { card } from "@/public/assets";
 import styles, { layout } from "@/styles/style";
-import Button from "./Button";
+import {Button} from "@/pages/components";
+import React from 'react'
 
-const CardDeal = () => (
-  <section className={layout.section}>
+export default function CardDeal() {
+  return (
+    <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Find a better card deal <br className="sm:block hidden" /> in few easy
@@ -22,6 +24,5 @@ const CardDeal = () => (
       <Image src={card} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
-);
-
-export default CardDeal;
+  )
+}

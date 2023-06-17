@@ -1,53 +1,25 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
-import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
-
-export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
-  logo,
-  quotes,
-  robot,
-  send,
-  shield,
-  star,
-  menu,
-  close,
-  google,
-  apple,
-  arrowUp,
-  discount,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  people01,
-  people02,
-  people03,
-};
+export { default as airbnb } from "./airbnb.png";
+export { default as bill } from "./bill.png";
+export { default as binance } from "./binance.png";
+export { default as card } from "./card.png";
+export { default as coinbase } from "./coinbase.png";
+export { default as dropbox } from "./dropbox.png";
+export { default as logo } from "./logo.svg";
+export { default as quotes } from "./quotes.svg";
+export { default as robot } from "./robot.png";
+export { default as send } from "./Send.svg";
+export { default as shield } from "./Shield.svg";
+export { default as star } from "./Star.svg";
+export { default as menu } from "./menu.svg";
+export { default as close } from "./close.svg";
+export { default as google } from "./google.svg";
+export { default as apple } from "./apple.svg";
+export { default as arrowUp } from "./arrow-up.svg";
+export { default as discount } from "./Discount.svg";
+export { default as facebook } from "./facebook.svg";
+export { default as instagram } from "./instagram.svg";
+export { default as linkedin } from "./linkedin.svg";
+export { default as twitter } from "./twitter.svg";
+export { default as people01 } from "./people01.png";
+export { default as people02 } from "./people02.png";
+export { default as people03 } from "./people03.png";
