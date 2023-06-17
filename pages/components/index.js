@@ -9,7 +9,7 @@ import Footer from "./home/Footer";
 import Testimonials from "./home/Testimonials";
 import Hero from "./home/Hero";
 
-export {
+export default {
   Navbar,
   Billing,
   CardDeal,

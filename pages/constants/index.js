@@ -15,7 +15,7 @@ import {
   star,
 } from "../../public/assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "home",
     title: "Home",
@@ -34,7 +34,7 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+const features = [
   {
     id: "feature-1",
     icon: star,
@@ -58,7 +58,7 @@ export const features = [
   },
 ];
 
-export const feedback = [
+const feedback = [
   {
     id: "feedback-1",
     content:
@@ -85,7 +85,7 @@ export const feedback = [
   },
 ];
 
-export const stats = [
+const stats = [
   {
     id: "stats-1",
     title: "User Active",
@@ -103,7 +103,7 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
+const footerLinks = [
   {
     title: "Useful Links",
     links: [
@@ -169,7 +169,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
@@ -192,7 +192,7 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+const clients = [
   {
     id: "client-1",
     logo: airbnb,
@@ -210,3 +210,13 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export default {
+  navLinks,
+  features,
+  feedback,
+  stats,
+  footerLinks,
+  socialMedia,
+  clients,
+};
