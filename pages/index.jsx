@@ -1,5 +1,5 @@
-import Home from "./home";
+import App from "./home";
 
 export default function index() {
-  return <Home />;
+  return <App />;
 }
