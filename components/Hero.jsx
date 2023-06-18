@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
 
       <div className="flex md:hidden">
-        <GetStarted />
+        <h1>HALOOOOOO</h1>
       </div>
     </section>
   );
