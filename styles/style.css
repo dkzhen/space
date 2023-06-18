@@ -33,6 +33,7 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+/* styles.module.css */
 
 .bg-blue-gradient {
   background: linear-gradient(
