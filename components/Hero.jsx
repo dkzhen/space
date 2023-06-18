@@ -38,7 +38,7 @@ const Hero = () => {
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
         </p>
-        <div className="md:flex hidden md:mr-4 mr-0">
+        <div className="md:hidden flex md:mr-4 mr-0">
             <GetStarted />
           </div>
       </div>
