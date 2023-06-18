@@ -1,8 +1,17 @@
 import styles from "@/styles/style";
-import styles from "@/styles/styles.module.css";
 import { discount, robot } from "@/public/assets";
 import GetStarted from "./GetStarted";
 import Image from "next/image";
+import { css } from '@emotion/react';
+
+const hideOnMdStyles = css`
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`;
+
 
 const Hero = () => {
   return (
@@ -46,7 +55,7 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" /> */}
         {/* gradient end */}
       </div>
-      <div className={styles['hide-on-md']}>
+      <div css={hideOnMdStyles}>
           
           <GetStarted />
         </div>
