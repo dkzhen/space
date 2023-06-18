@@ -1,16 +1,9 @@
 import { stats } from "../constants";
 import styles from "@/styles/style";
-import GetStarted from "./GetStarted";
 
 const Stats = () => (
-  <section className={`${styles.flexCenter} flex-col sm:mb-20 mb-6`}>
-    <div className={`md:hidden flex ${styles.flexCenter}`}>
-    <div className='sm:hidden'>
-            <GetStarted />
-          </div>
-    </div>
-     <div className={`${styles.flexCenter} flex-row flex-wrap `}>
-     {stats.map((stat) => (
+  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
+    {stats.map((stat) => (
       <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`} >
         <h4 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white">
           {stat.value}
@@ -20,8 +13,6 @@ const Stats = () => (
         </p>
       </div>
     ))}
-     </div>
-    
   </section>
 );
 
