@@ -30,7 +30,7 @@ const Hero = () => {
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>{" "}
           </h1>
-          <div className="md:flex hidden sm:mr-4 mr-0">
+          <div className="md:flex hidden m">
             <GetStarted />
           </div>
         </div>
@@ -46,7 +46,7 @@ const Hero = () => {
        
       </div>
 
-      <div className={`flex ${styles.flexCenter} sm:my-0 my-10 relative`}>
+      <div className={`flex ${styles.flexCenter} relative`}>
         <Image src={robot} alt="billing" className="w-[100%] object-cover h-[100%] relative z-[5] " />
 
         {/* gradient start */}
