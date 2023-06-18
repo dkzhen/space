@@ -4,8 +4,8 @@ import GetStarted from "./GetStarted";
 
 const Stats = () => (
   <section className={`${styles.flexCenter} flex-col sm:mb-20 mb-6`}>
-    <div className="">
     <div className={`md:hidden flex ${styles.flexCenter}`}>
+    <div className='sm:hidden'>
             <GetStarted />
           </div>
     </div>
