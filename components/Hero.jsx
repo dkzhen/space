@@ -5,10 +5,10 @@ import Image from "next/image";
 import { css } from '@emotion/react';
 
 const hideOnMdStyles = css`
-  display: none;
+display: block;
 
   @media (max-width: 768px) {
-    display: block;
+    display: none;
   }
 `;
 
