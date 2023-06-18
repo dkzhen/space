@@ -26,11 +26,11 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="md:hidden flex  justify-end items-center bg-transparent">
+      <div className="md:hidden flex  justify-end items-center bg-transparent ">
         <Image
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px]  object-contain"
+          className="w-[28px] h-[28px] md:hidden  object-contain"
           onClick={() => setToggle(!toggle)}
         />
 
