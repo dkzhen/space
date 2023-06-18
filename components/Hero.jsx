@@ -45,7 +45,7 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`hidden  ${styles.flexCenter}`}>
+      <div className={`flex sm:hidden  ${styles.flexCenter}`}>
         <GetStarted />
       </div>
     </section>
