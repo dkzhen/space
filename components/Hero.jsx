@@ -5,8 +5,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+    <section
+      id="home"
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    >
+      <div
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+      >
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
@@ -34,8 +39,29 @@ const Hero = () => {
           annual fees.
         </p>
         <div className="flex md:hidden">
-        <GetStarted />
-      </div>
+          <div
+            className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer sm:hidden`}
+          >
+            <div
+              className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
+            >
+              <div className={`${styles.flexStart} flex-row`}>
+                <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+                  <span className="text-gradient">Get</span>
+                </p>
+                <Image
+                  src={arrowUp}
+                  alt="arrow-up"
+                  className="w-[23px] h-[23px] object-contain"
+                />
+              </div>
+
+              <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+                <span className="text-gradient">Started</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={`flex ${styles.flexCenter} md:my-0 my-10`}>
@@ -47,8 +73,6 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" /> */}
         {/* gradient end */}
       </div>
-
-     
     </section>
   );
 };
