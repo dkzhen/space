@@ -38,30 +38,9 @@ const Hero = () => {
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
         </p>
-        <div className="flex md:hidden">
-          <div
-            className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer sm:hidden`}
-          >
-            <div
-              className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
-            >
-              <div className={`${styles.flexStart} flex-row`}>
-                <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-                  <span className="text-gradient">Get</span>
-                </p>
-                <Image
-                  src={arrowUp}
-                  alt="arrow-up"
-                  className="w-[23px] h-[23px] object-contain"
-                />
-              </div>
-
-              <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-                <span className="text-gradient">Started</span>
-              </p>
-            </div>
+        <div className="md:flex hidden md:mr-4 mr-0">
+            <GetStarted />
           </div>
-        </div>
       </div>
 
       <div className={`flex ${styles.flexCenter} md:my-0 my-10`}>
