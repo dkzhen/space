@@ -26,7 +26,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="md:hidden flex  justify-end items-center bg-transparent ">
+      <div className=" flex  justify-end items-center bg-transparent ">
         <Image
           src={toggle ? close : menu}
           alt="menu"
