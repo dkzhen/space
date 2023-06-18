@@ -33,6 +33,9 @@ const Hero = () => {
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
         </p>
+        <div className="flex md:hidden">
+        <GetStarted />
+      </div>
       </div>
 
       <div className={`flex ${styles.flexCenter} md:my-0 my-10`}>
@@ -45,9 +48,7 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className="flex md:hidden">
-        <h1>HALOOOOOO</h1>
-      </div>
+     
     </section>
   );
 };
