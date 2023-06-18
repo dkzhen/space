@@ -34,8 +34,15 @@ const Hero = () => {
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>{" "}
           </h1>
-          <div className="md:flex hidden md:mr-4 mr-0">
+          <div className="md:flex hidden md:mr-4 mr-0 md:flex-row">
             <GetStarted />
+            <div>
+        <Image
+          src={robot}
+          alt="billing"
+          className="w-full "
+        />
+      </div>
           </div>
         </div>
 
@@ -48,13 +55,7 @@ const Hero = () => {
           annual fees.
         </p>
       </div>
-      <div>
-        <Image
-          src={robot}
-          alt="billing"
-          className="w-full "
-        />
-      </div>
+      
       <div className={`flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         {/* <Image src={robot} alt="billing" className="w-[100%] object-cover h-[100%] relative z-[5] " /> */}
 
