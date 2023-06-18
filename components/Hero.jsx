@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex sm:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row md:flex-nowrap flex-col ${styles.paddingY}`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -34,15 +34,8 @@ const Hero = () => {
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>{" "}
           </h1>
-          <div className="md:flex hidden md:mr-4 mr-0 md:flex-row">
+          <div className="md:flex hidden md:mr-4 mr-0">
             <GetStarted />
-            <div>
-        <Image
-          src={robot}
-          alt="billing"
-          className="w-full "
-        />
-      </div>
           </div>
         </div>
 
@@ -55,7 +48,10 @@ const Hero = () => {
           annual fees.
         </p>
       </div>
-      
+      <div>
+        <Image src={robot} alt="billing" className="w-full " />
+      </div>
+
       <div className={`flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         {/* <Image src={robot} alt="billing" className="w-[100%] object-cover h-[100%] relative z-[5] " /> */}
 
