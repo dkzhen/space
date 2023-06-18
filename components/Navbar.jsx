@@ -26,7 +26,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="md:hidden flex flex-1 justify-end items-center bg-transparent">
+      {/* <div className="md:hidden flex flex-1 justify-end items-center bg-transparent">
         <Image
           src={toggle ? close : menu}
           alt="menu"
@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };
